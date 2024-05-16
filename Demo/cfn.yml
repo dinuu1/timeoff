@@ -1,0 +1,14 @@
+---
+Resources:
+  myEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:    
+        ImageId: ami-04e5276ebb8451442
+        InstanceType: t2.micro
+        KeyName: newkeypairdemo
+        SecurityGroupIds:
+          - sg-06b54748e7a36ca3b  
+        SubnetId: subnet-0351f20a943d95350    
+       
+        
+          
